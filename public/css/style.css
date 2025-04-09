@@ -1,0 +1,23 @@
+*{
+}
+
+
+body{
+    /* background-color: black;
+    color: white; */
+
+}
+
+
+.Meilleure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+#avance{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
