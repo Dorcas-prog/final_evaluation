@@ -18,9 +18,10 @@
             <input type="texte" name="contact" id="contact">
             <label for="">E-mail</label>
             <input type="texte" name="email" id="email">
+            <label for="">Nombre de produit</label>
+            <input type="texte" name="nombre_de_produit" id="nombre_de_produit">
             <label for="">Produit</label>
             <input type="texte" name="produit" id="produit" value="{{$nom}}">
-         
 
             @error('payement')
                 {{$message}}

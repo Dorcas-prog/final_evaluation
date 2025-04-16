@@ -9,6 +9,7 @@
         <thead class="table-dark">
             <tr>
                 <th>Nom</th>
+                <th>Nombre de produit</th>
                 <th>Produit</th>
                 <th>Email</th>
                 <th>Contact</th>
@@ -19,6 +20,7 @@
             @foreach ($commandes as $commande)
             <tr>
                 <td>{{ $commande->nom }}</td>
+                <td>{{ $commande->nombre_de_produit }}</td>
                 <td>{{ $commande->produit }}</td>
                 <td>{{ $commande->email }}</td>
                 <td>{{ $commande->contact }}</td>

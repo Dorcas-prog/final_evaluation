@@ -14,6 +14,8 @@
             <input type="texte" name="contact" id="contact" value="{{$commande->contact}}">
             <label for="">E-mail</label>
             <input type="texte" name="email" id="email" value="{{$commande->email}}">
+            <label for="">Nombre de produit</label>
+            <input type="texte" name="nombre_de_produit" id="nombre_de_produit" value="{{$commande->nombre_de_produit}}">
             <label for="">Produit</label>
             <input type="texte" name="produit" id="produit" value="{{$commande->produit}}">
          

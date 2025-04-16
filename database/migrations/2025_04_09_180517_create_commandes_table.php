@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('contact');
             $table->string('email');
             $table->string('produit');
+            $table->integer('nombre_de_produit');
             $table->timestamps();
         });
     }

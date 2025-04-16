@@ -25,6 +25,7 @@ class CommandeRequest extends FormRequest
             "nom" => "required",
             "contact" => "required",
             "email" => "required",
+            "nombre_de_produit" => "required",
             "produit" => "required",
         ];
     }
